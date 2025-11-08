@@ -1,76 +1,14 @@
 {
-  "name": "ElEnemigos - Fuente (convertida)",
-  "author": "Generado por ChatGPT",
-  "version": 1,
-  "description": "Fuente de descarga basada en https://elenemigos.com — cada entrada apunta a la página del juego en el sitio para extraer el enlace de descarga.",
-  "site": "https://elenemigos.com",
-  "generated_at": "2025-11-08",
-  "fetch_instructions": "Cada juego incluye 'page_url'. El launcher o el script debe visitar esa URL y extraer el enlace de descarga (zip/rar/exe) del HTML. Si el sitio ofrece un botón 'Descargar' o un enlace directo, usar ese. Verificar checksums si están presentes.",
+  "name": "ElEnemigos - Fuente",
+  "author": "MaxHyp",
+  "version": "1.0",
   "games": [
     {
-      "id": "dispatch-cap-1-6",
-      "title": "Dispatch (Cap 1-6)",
-      "platform": ["PC"],
-      "tags": ["Acción", "Estrategia"],
-      "page_url": "https://elenemigos.com/?s=Dispatch+Cap+1-6",
-      "fetch_method": "scrape_page_for_download_links",
-      "notes": "Buscar enlaces con texto 'Download', 'Descargar' o extensiones .zip .rar .7z .exe"
-    },
-    {
-      "id": "repo",
-      "title": "R.E.P.O.",
-      "platform": ["PC"],
-      "tags": ["Horror", "Coop"],
-      "page_url": "https://elenemigos.com/?s=R.E.P.O.",
-      "fetch_method": "scrape_page_for_download_links"
-    },
-    {
-      "id": "look-outside",
-      "title": "Look Outside",
-      "platform": ["PC"],
-      "tags": ["Horror", "RPG"],
-      "page_url": "https://elenemigos.com/?s=Look+Outside",
-      "fetch_method": "scrape_page_for_download_links"
-    },
-    {
-      "id": "five-hearts-under-one-roof",
-      "title": "Five Hearts Under One Roof",
-      "platform": ["PC"],
-      "tags": ["Novela Visual", "Adultos"],
-      "page_url": "https://elenemigos.com/?s=Five+Hearts+Under+One+Roof",
-      "fetch_method": "scrape_page_for_download_links"
-    },
-    {
-      "id": "plants-vs-zombies-replanted",
-      "title": "Plants vs. Zombies: Replanted",
-      "platform": ["PC"],
-      "tags": ["Casual"],
-      "page_url": "https://elenemigos.com/?s=Plants+vs+Zombies+Replanted",
-      "fetch_method": "scrape_page_for_download_links"
-    },
-    {
-      "id": "anomalous-coffee-machine",
-      "title": "Anomalous Coffee Machine",
-      "platform": ["PC"],
-      "tags": ["Horror", "Indie", "Adultos"],
-      "page_url": "https://elenemigos.com/?s=Anomalous+Coffee+Machine",
-      "fetch_method": "scrape_page_for_download_links"
-    },
-    {
-      "id": "minecraft-windows",
-      "title": "Minecraft For Windows",
-      "platform": ["PC"],
-      "tags": ["Sandbox"],
-      "page_url": "https://elenemigos.com/?s=Minecraft+For+Windows",
-      "fetch_method": "scrape_page_for_download_links"
-    },
-    {
-      "id": "femboy-futa-house",
-      "title": "FEMBOY FUTA HOUSE",
-      "platform": ["PC"],
-      "tags": ["Novela Visual", "Adultos"],
-      "page_url": "https://elenemigos.com/?s=FEMBOY+FUTA+HOUSE",
-      "fetch_method": "scrape_page_for_download_links"
+      "name": "Silent Hill F",
+      "id": "silent-hill-f",
+      "description": "Juego de ejemplo para probar Hydra Launcher.",
+      "url": "https://elenemigos.com/descargas/silent-hill-f.zip",
+      "image": "https://elenemigos.com/img/silent-hill-f.jpg"
     }
   ]
 }
