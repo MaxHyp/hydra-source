@@ -1,14 +1,14 @@
 {
-  "name": "ElEnemigos - Fuente",
+  "name": "Prueba Hydra",
   "author": "MaxHyp",
-  "version": "1.0",
   "games": [
     {
-      "name": "Silent Hill F",
-      "id": "silent-hill-f",
-      "description": "Juego de ejemplo para probar Hydra Launcher.",
-      "url": "https://elenemigos.com/descargas/silent-hill-f.zip",
-      "image": "https://elenemigos.com/img/silent-hill-f.jpg"
+      "id": "demo",
+      "name": "Demo Test",
+      "description": "Juego de prueba para verificar que la fuente funciona",
+      "image": "https://i.imgur.com/dkzYQhO.png",
+      "url": "https://example.com/demo.zip",
+      "version": "1.0"
     }
   ]
 }
